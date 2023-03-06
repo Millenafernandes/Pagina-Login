@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+   
+    
+}
+
+body{
+
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+    height: 100vh;
+   
+
+    
+}
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border: 2px solid ;
+    border-radius: 20px;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+   button{
+
+   background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: none;
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-right: 30px;
+   
+    height: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    text-align: center;
+    
+    
+   
+    
+
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+  
+   
+ }
+ input{
+    margin-top: 30px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid;
+    font-size: 15px;
+ }
+
+ #botao{
+   display: flex;
+  
+   justify-content: center;
+   align-self: center;
+   
+ }
+
+ form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+ }
+
+ form [type="submit"]:hover{
+    cursor: pointer;
+ }
+
+ text{
+    margin-top: 50px;
+ }
+
+ button:hover{
+   cursor: pointer; 
+ }
